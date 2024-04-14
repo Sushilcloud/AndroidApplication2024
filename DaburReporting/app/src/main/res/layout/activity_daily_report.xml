@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="center"
+    android:layout_marginRight="20dp"
+
+    tools:context=".DailyReport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+
+            android:src="@drawable/daburlogo"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Put Your Order in Pcs"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/name"
+                android:ems="10"
+                android:layout_marginTop="50dp"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"/>/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/town"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Town"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"/>/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/beatname"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Beat Name"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/totalval"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Total Value"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/totalorder"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Total Order"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/totallines"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Total Lines"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/realltr"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Ltr"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/real200ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real 200ml "
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+
+            <EditText
+                android:id="@+id/realactivefiberltr"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Active/Fiber Ltr"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/coconutwater200ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Coconut Water 250ml ( Pcs )"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/coconutwater200mleco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Coconut Water 250ml ( ECO )"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/coconutwatertetra"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Coconut Water Tetra (Pcs)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/coconutwatertetraeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Coconut Water Tetra (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/milkshake"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Milkshake (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/milkshakeeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Milkshake (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/realmini"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real 125ml (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/realminieco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real 125ml (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/realdrinkkooolerz"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Drink Koolerz (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/realdrinkkooolerzeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Drink Koolerz (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pet250ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Pet 200ml (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pet250mleco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Pet 200ml (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pet600ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Pet 500ml (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pet600mleco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Real Pet 500ml (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/apetltr"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Aloe Pet Ltr (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/apetltreco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Aloe Pet Ltr (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/apet250ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Aloe Pet 250ml (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/apet250mleco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Aloe Pet 250ml (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/fizz"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Fizz(PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/fizzeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Fizz(ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/imli"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Imli Sauce (PCS)
+"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/imlieco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Imli Sauce (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/chutney"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Chutney (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/chutneyeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Chutney (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pickle"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Pickle (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pickleeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Pickle (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/KoolerzPet250ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 250ml (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/KoolerzPet250mleco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 250ml (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/KoolerzPet600ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 600ml (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/KoolerzPet600mleco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 600ml (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/KoolerzPet1200ml"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 1200ml (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/KoolerzPet1200mleco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 1200ml (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pet2ltr"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 2Ltr (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/pet2leco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Koolerz Pet 2Ltr (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/magicmasal"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Magic Masala (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/magicmasalaeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Magic Masala (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/gg25gm"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Ginger Garlic 25Gm (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/gg25gmeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Ginger Garlic 25Gm (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/gg100gm"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Ginger Garlic 100Gm (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/gg100gmeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Ginger Garlic 100Gm (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/gg200gm"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Ginger/Garlic 200Gm (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/gg200gmeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Ginger/Garlic 200Gm (ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/tomotopuree"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Tomoto Puree (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/tomotopureeeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Tomoto Puree(ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/giftpack"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Gift Pack (PCS)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/giftpackeco"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Gift Pack(ECO)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/remark1"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Put Remark"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/add_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

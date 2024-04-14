@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="center"
+    android:layout_marginRight="20dp"
+
+    tools:context=".MarketCompitition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+
+            android:src="@drawable/daburlogo"
+            android:padding="10dp"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/ssmname"
+                android:ems="10"
+                android:layout_marginTop="50dp"
+                android:hint="SSM Name"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/townname"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Town Name"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/companyname"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Company Name"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/brandname"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Brand Name"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/skupacksize"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Sku Pack Size"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/mrp"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Product MRP"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/casesize"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Case Size"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/stockiestmargin"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Stockiest Margin"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/retailermargin"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Retailer Margin"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/scheme"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Scheme"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/netrateperpc"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Net Rate Per Pcs"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/netratepercase"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Net Rate Per Case"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            app:passwordToggleEnabled="true"
+            >
+            <EditText
+                android:id="@+id/remark"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Remark"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
